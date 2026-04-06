@@ -19,3 +19,4 @@ test("divide", () => {
 test("Cannot divide by zero", () => { 
   expect(() => divide(5, 0)).toThrow(); 
 });
+
